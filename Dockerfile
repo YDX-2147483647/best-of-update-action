@@ -1,6 +1,6 @@
 FROM python:3.8
 
-RUN pip install --no-cache-dir "best-of @ git+https://github.com/best-of-lists/best-of-generator.git@4e07c02a36d964c28ceab6de53c74be84a633286"
+RUN pip install --no-cache-dir "best-of @ git+https://github.com/YDX-2147483647/best-of-generator.git@best-of-bits"
 
 COPY ./resources/entrypoint.sh /entrypoint.sh
 
