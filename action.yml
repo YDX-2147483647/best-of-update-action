@@ -8,6 +8,9 @@ inputs:
   github_key:
     description: "Github API Token (from https://github.com/settings/tokens)"
     required: false
+  gitee_key:
+    description: "Gitee API Key (from https://gitee.com/profile/personal_access_tokens)"
+    required: false
   projects_file:
     description: "Projects yaml file to use for best-of generation"
     default: "projects.yaml"

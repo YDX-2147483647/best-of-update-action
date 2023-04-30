@@ -14,6 +14,10 @@ if [ -n "$INPUT_LIBRARIES_KEY" ]; then
     GENERATE_ARGS="$GENERATE_ARGS --libraries-key=$INPUT_LIBRARIES_KEY"
 fi
 
+if [ -n "$INPUT_GITEE_KEY" ]; then
+    GENERATE_ARGS="$GENERATE_ARGS --gitee-key=$INPUT_GITEE_KEY"
+fi
+
 if [ -z "$INPUT_PROJECTS_FILE" ]; then
     # set default
     INPUT_PROJECTS_FILE="projects.yaml"
