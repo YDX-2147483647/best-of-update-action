@@ -1,3 +1,7 @@
+This branch is obsolete in favor of https://github.com/YDX-2147483647/best-of-bits/pull/91.
+
+---
+
 <!-- markdownlint-disable MD033 MD041 -->
 <h1 align="center">
     best-of-update-action
